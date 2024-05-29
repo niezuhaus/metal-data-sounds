@@ -1,5 +1,4 @@
-#Metalle, Daten, Klänge
-##Projektdokumentation
+# Metalle, Daten, Klänge
 
 Wie können mikrostopische Strukturen hörbar gemacht werden? Wenn ein Geigerzähler, ein Tremolo oder eine E-Gitarre analog sonifizieren, welche algorithmischen Möglichkeiten gibt es für digitalen Daten? Um aus mikroskopischen Strukturen, Geräusche oder sogar Musik zu generieren sind Datenerhebung, -verarbeitung und Klangsynthese drei fundamentale Schritte.
 Als Datenbasis meines Projektes soll eine Sammlung mikroskopischer Aufnahmen einer Partikelstruktur dienen. Die Verarbeitung findet in Processing statt und für die Klangsynthese ist die Java-Library Minim zuständig.
