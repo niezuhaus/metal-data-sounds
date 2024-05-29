@@ -7,16 +7,16 @@ import ddf.minim.ugens.*;
 
 // SOUND PARAMETERS
 // OSC
-float minFreq = 350;            // in Hz
-float maxFreq = 1750;
+float minFreq = 1000;            // in Hz
+float maxFreq = 3500;
 float minAmp = -40;             // in dB
-float maxAmp = -10;
+float maxAmp = -20;
 float playbackLength = 5.0;     // in seconds
 float linePlaybackSpeed = 250;  // playbackspeed for the custom axis in px/second
 
 // ADSR
 float minR = 0.05;              // min-release time
-float maxR = 0.2;               // max-release time
+float maxR = 0.5;               // max-release time
 
 // PROGRAMM CONSTANTS
 int imagePreset = 0;            // image to analyze (try 0, 1, 2 or 3)
@@ -66,7 +66,7 @@ ArrayList<Section> selection = new ArrayList<Section>();                // chord
 void setup() {
   size(1280, 770);
   pixelDensity(displayDensity());
-  //frameRate(20);
+  frameRate(60);
   stroke(255, 0, 0);
 
   mono = createFont("Andale Mono", 32);
